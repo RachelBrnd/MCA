@@ -1,14 +1,25 @@
-body {font-family:"Trebuchet MS";
+body {font-family:"Georgia";
       background-color: #efe2e2;}
-table.table1 {width:100%;
+table {width:80%;
     border-style: solid;
-	border-color: black;
+	border-color: grey;
     margin: auto;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 18px;
 	text-align:center;
 	background-color: lightgrey;
 	color: black;}
-table.table1 td {border: 1px solid black;}
+table.t2 {width:100%;
+    border-style: solid;
+	border-color: grey;
+    margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	text-align:center;
+	background-color: lightgrey;
+	color: black;}
+
+
 

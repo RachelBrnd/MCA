@@ -23,4 +23,4 @@ In this project I have notated four Sufjan tracks, including the epic Chicago, w
 
 On this site you can also view acoustic analyses of tracks from the Free Music Archive, including spectrograms and graphics that show the similarity of tracks within different genres.
 
-The content on the website is just a small part of the work done for this project, please view "Project Files" in my GitHub repository via the logo below for the full dataset! 
+The content on the website is just a small part of the work done for this project, please view "Project Files" in my GitHub repository for the full dataset! 

@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>C:\Users\Rache\Desktop\music analytics\MIDIS\Visions_of_Gideon_Sufjan_Stevens_Call_Me_By_Your_Name.mid</data_set_id>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>3.3E1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitch Classes</name>
+			<v>8E0</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>6.5E1</v>
+		</feature>
+		<feature>
+			<name>Strong Tonal Centres</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>6.1E1</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch Class</name>
+			<v>4.441E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch</name>
+			<v>7.2E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch Class</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Interval Between Most Prevalent Pitches</name>
+			<v>1.6E1</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>1.079E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Melodic Interval</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Total Number of Notes</name>
+			<v>1.163E3</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Dotted Notes</name>
+			<v>1.238E-1</v>
+		</feature>
+		<feature>
+			<name>Average Note Duration</name>
+			<v>5.289E-1</v>
+		</feature>
+		<feature>
+			<name>Variability of Note Durations</name>
+			<v>6.096E-1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitched Instruments</name>
+			<v>2E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>

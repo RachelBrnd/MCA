@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Chicago Note Change</title>
+    <meta charset="utf-8">
+    <meta name="description" content="My project">
+    <meta name="author" content="Me">
+    <link rel="stylesheet" href="css/style.css" media="all" />
+    <script src="js/verovio-toolkit.js"></script>
+    <script src="js/utils.js"></script>
+  </head>
+
+  <body>
+
+    <div id="content">
+      <!-- ADD YOUR HTML CONTENT HERE! -->
+	  <link rel="stylesheet" type="text/css" href="goodcss.css">
+      <a href="index.html">Homepage</a><h1 align="center">Sufjan Stevens Project</h1>
+	 <p align="center">This is Sufjan's 2005 track Chicago, from the album Illinois, with its MEI edited so that the introductory notes to the song are different to the orignal, creating an odd sound.</p>
+	  <table class="table1">
+	  <tr><td><a href="index-meta.html">Original Version</a></td><td><a href="ChicagoASU.html">Stems Up Version</a></td><td><a href="ChicagoASD.html">Stems Down Version</a></td><td><a href="ChicagoNC.html">Note Change Version</a></td><td><a href="ChicagoAOL.html">Octaves Lowered Version</a></td></tr>
+	  </table>
+	  
+
+      <p id="meta"></p>
+
+    </div>
+
+    <!-- **** DO NO EDIT BELOW THIS LINE **** -->
+    <!-- * **** **** **** **** **** **** **** -->
+    <div id="controls">
+      <button id="prev"> &lt; </button>
+      <button id="next"> &gt; </button>
+    </div>
+    <div id="score">
+      <!-- THIS IS WHERE THE SCORE GOES AUTOMATICALLY -->
+    </div>
+    <!-- THIS CALLS THE SCRIPT THAT GETS THE MEI SCORE -->
+   <script src="js/indexNC.js"></script>
+    <script>
+      var xhr = new XMLHttpRequest()
+      xhr.open('GET', 'data/ChicagoNC.mei') // <-- change this to the right file
+      xhr.send(null)
+
+      /* Deal with the response */
+      xhr.onreadystatechange = function () {
+        var DONE = 4
+        var OK = 200
+        if (xhr.readyState === DONE) {
+          if (xhr.status === OK) {
+            var parser = new DOMParser()
+            var meiDoc = parser.parseFromString(xhr.responseText,"text/xml")
+            /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
+            document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
+           */
+		
+           /* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
+            document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
+            */
+			
+          }
+        }
+      }
+    </script>
+  </body>
+
+</html>

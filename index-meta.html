@@ -2,7 +2,7 @@
 <html lang="en">
 
   <head>
-    <title>My Music Encoding Project</title>
+    <title>Chicago</title>
     <meta charset="utf-8">
     <meta name="description" content="My project">
     <meta name="author" content="Me">
@@ -15,8 +15,17 @@
 
     <div id="content">
       <!-- ADD YOUR HTML CONTENT HERE! -->
-      <h1>My project</h1>
-      <h2>Metadata</h2>
+	  <link rel="stylesheet" type="text/css" href="goodcss.css">
+     <a href="index.html">Homepage</a> <h1>Chicago</h1>
+	  <p align="center"> This is my notated version of Sufjan's 2005 track Chicago from the album Illinois. The album explores the history and culture of the US state of Michigan over 75 minutes and with the use of many instruments.
+	  It is perhaps Sufjan's most critically acclaimed and commercially successful album, and it is certified Gold in the United States.
+	  <br>
+	  See the links for versions of the track that have had their MEI edited, or alternately view the original below.</p>
+	  <table class="table1">
+	 <tr><td><a href="ChicagoASU.html">Stems Up Version</a></td><td><a href="ChicagoASD.html">Stems Down Version</a></td><td><a href="ChicagoNC.html">Note Change Version</a></td><td><a href="ChicagoAOL.html">Octaves Lowered Version</a></td></tr>
+	  </table>
+	 <h2>Metadata</h2>
+	 Below you can find links to the sources and authorities regarding this data, for more in depth metadata please see the source MEI files on GitHub.
       <p id="meta"></p>
 
     </div>
@@ -34,7 +43,7 @@
    <script src="js/index.js"></script>
     <script>
       var xhr = new XMLHttpRequest()
-      xhr.open('GET', 'data/example.mei') // <-- change this to the right file
+      xhr.open('GET', 'data/ChicagoMD.mei') // <-- change this to the right file
       xhr.send(null)
 
       /* Deal with the response */
@@ -48,9 +57,13 @@
             /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
            */
+		 document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='t-3']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='t-3']").textContent + "</p></a>"
+		    document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='e-2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='e-2']").textContent + "</p></a>"
+			 document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='c-2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='c-2']").textContent + "</p></a>"
            /* If your element does not have an authURI attribute, copy the following line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='m-8']").textContent + "</p>"
             */
+			document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='ext']").textContent + "</p>"
           }
         }
       }

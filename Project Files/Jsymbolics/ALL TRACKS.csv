@@ -1,0 +1,14 @@
+,Number_of_Pitches,Number_of_Pitch_Classes,Range,Strong_Tonal_Centres,Mean_Pitch,Mean_Pitch_Class,Most_Common_Pitch,Most_Common_Pitch_Class,Interval_Between_Most_Prevalent_Pitches,Pitch_Variability,Most_Common_Melodic_Interval,Prevalence_of_Dotted_Notes,Average_Note_Duration,Variability_of_Note_Durations,Number_of_Pitched_Instruments
+Chicago,28,7,55,2,54.92,6.386,45,9,2,12.75,0,0.05091,0.3409,0.2515,5
+Come On Feel The Illinoise,51,12,62,3,60.62,4.921,76,2,14,14.74,0,0.02921,0.2664,0.323,11
+Concerning the UFO Sighting Near Highland Illinois,28,12,38,2,64.67,5.684,64,7,5,8.951,0,0.06043,0.4928,0.6428,5
+Death With Dignity,16,8,24,3,68.18,6.609,69,9,2,3.711,1411,0.05457,0.3007,0.4728,4
+Flint,19,7,33,2,55,5.095,48,5,2,9.821,2,0.6554,1.148,0.4034,1
+Futile Devices,23,7,41,2,62,5.917,57,6,3,10.69,3,0.09674,0.3915,0.4675,1
+Mystery of Love,18,7,31,3,61.26,5.067,62,2,2,6.308,5,0.01693,0.3486,0.362,2
+No Shade in the Shadow of the Cross,13,7,20,2,56,5.603,61,1,5,5.745,5,0,0.2695,0.2209,1
+The Black Hawk War,39,9,66,2,75.14,5.316,76,6,2,13.16,2,0.01419,0.2821,0.7513,11
+Tonya Harding,23,7,50,2,65,5.884,71,11,16,10.6,2,0.5124,0.7892,0.5426,1
+Visions of Gideon,33,8,65,2,61,4.441,72,0,16,10.79,0,0.1238,0.5289,0.6096,2
+,,,,,,,,,,,,,,,
+Average,26.45454545,8.272727273,44.09090909,2.272727273,62.16272727,5.538454545,63.72727273,5.272727273,6.272727273,9.751454545,130,0.14678,0.468963636,0.458854545,4

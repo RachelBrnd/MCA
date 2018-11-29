@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>C:\Users\Rache\Desktop\music analytics\MIDIS\Sufjan_Stevens_-_Concerning_The_UFO_Sighting_Near_Highland_Illinois.mid</data_set_id>
+		<feature>
+			<name>Number of Pitches</name>
+			<v>2.8E1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitch Classes</name>
+			<v>1.2E1</v>
+		</feature>
+		<feature>
+			<name>Range</name>
+			<v>3.8E1</v>
+		</feature>
+		<feature>
+			<name>Strong Tonal Centres</name>
+			<v>2E0</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch</name>
+			<v>6.467E1</v>
+		</feature>
+		<feature>
+			<name>Mean Pitch Class</name>
+			<v>5.684E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch</name>
+			<v>6.4E1</v>
+		</feature>
+		<feature>
+			<name>Most Common Pitch Class</name>
+			<v>7E0</v>
+		</feature>
+		<feature>
+			<name>Interval Between Most Prevalent Pitches</name>
+			<v>5E0</v>
+		</feature>
+		<feature>
+			<name>Pitch Variability</name>
+			<v>8.951E0</v>
+		</feature>
+		<feature>
+			<name>Most Common Melodic Interval</name>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Total Number of Notes</name>
+			<v>1.721E3</v>
+		</feature>
+		<feature>
+			<name>Prevalence of Dotted Notes</name>
+			<v>6.043E-2</v>
+		</feature>
+		<feature>
+			<name>Average Note Duration</name>
+			<v>4.928E-1</v>
+		</feature>
+		<feature>
+			<name>Variability of Note Durations</name>
+			<v>6.428E-1</v>
+		</feature>
+		<feature>
+			<name>Number of Pitched Instruments</name>
+			<v>5E0</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>

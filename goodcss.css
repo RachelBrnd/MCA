@@ -1,0 +1,14 @@
+body {font-family:"Trebuchet MS";
+      background-color: #efe2e2;}
+table.table1 {width:100%;
+    border-style: solid;
+	border-color: black;
+    margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 20px;
+	text-align:center;
+	background-color: lightgrey;
+	color: black;}
+table.table1 td {border: 1px solid black;}
+

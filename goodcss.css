@@ -21,6 +21,16 @@ table.t2 {width:100%;
 	text-align:center;
 	background-color: lightgrey;
 	color: black;}
-
+table.t2 td {border: 1px solid black;}
+table.t3 {width:100%;
+    border: 2px solid black;
+    margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 10px;
+	text-align:center;
+	background-color: lightgrey;
+	color: black;}
+table.t3 td {border: 1px solid black;}
 
 

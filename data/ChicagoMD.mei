@@ -7,7 +7,7 @@
         <titleStmt xml:id="fd-ts">
             <title xml:id="t-1">Chicago</title>
             <title xml:id="t-2" type="subtitle">
-                <identifier>MuseScore encoded version of "Chicago" from the album "Illinois"</identifier>
+                <identifier>MEI encoded version of "Chicago" from the album "Illinois"</identifier>
             </title>
             <composer xml:id="c-1">Sufjan Stevens</composer>
             <respStmt>
@@ -17,7 +17,7 @@
             </respStmt>
         </titleStmt>
         <editionStmt>
-            <edition xml:id="edition">Edited edition of Sufjan Steven's Chicago as notated by MuseScore user Ion95</edition>
+            <edition xml:id="edition">Derivative edition of Sufjan Steven's Chicago as notated by MuseScore user Ion95</edition>
             <respStmt>
                 <resp>Modified and re-notated by Rachel Brandie</resp>
                 <persName>Rachel Brandie</persName>

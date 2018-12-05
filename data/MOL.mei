@@ -7,7 +7,7 @@
         <titleStmt xml:id="fd-ts">
             <title xml:id="t-1">Mystery of Love</title>
             <title xml:id="t-2" type="subtitle">
-                <identifier>MuseScore encoded version of "Mystery of Love" from the movie "Call Me By Your Name"</identifier>
+                <identifier>MEI version of "Mystery of Love" from the movie "Call Me By Your Name"</identifier>
             </title>
             <composer xml:id="c-1">Sufjan Stevens</composer>
             <respStmt>
@@ -17,7 +17,7 @@
             </respStmt>
         </titleStmt>
         <editionStmt>
-            <edition xml:id="edition">Edited edition of Sufjan Steven's Mystery of Love as notated by MuseScore user Gatogus42</edition>
+            <edition xml:id="edition">Derivative edition of Sufjan Steven's Mystery of Love as notated by MuseScore user Gatogus42</edition>
             <respStmt>
                 <resp>Modified and notated by Rachel Brandie</resp>
                 <persName>Rachel Brandie</persName>

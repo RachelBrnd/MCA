@@ -11,49 +11,49 @@
             </title>
             <composer xml:id="c-1">Sufjan Stevens</composer>
             <respStmt>
-                <resp>Encoded by Rachel Brandie</resp>
-                <persName>Rachel Brandie</persName>
-                <corpName>University of Glasgow</corpName>
+                <resp xml:id="r-1">Encoded by Rachel Brandie</resp>
+                <persName xml:id="pers">Rachel Brandie</persName>
+                <corpName xml:id="corp">University of Glasgow</corpName>
             </respStmt>
         </titleStmt>
         <editionStmt>
             <edition xml:id="edition">Derivative edition of Sufjan Steven's No Shade in the Shadow of the Cross as notated by MuseScore user Bollandj</edition>
             <respStmt>
-                <resp>Modified and re-notated by Rachel Brandie</resp>
-                <persName>Rachel Brandie</persName>
+                <resp xml:id="r-2">Modified and re-notated by Rachel Brandie</resp>
+                <persName xml:id="pers-2">Rachel Brandie</persName>
             </respStmt>
         </editionStmt>
         <extent xml:id="ext">104 Kilobytes</extent>
         <pubStmt>
             <publisher>
-                <corpName>University of Glasgow</corpName>
+                <corpName xml:id="corp-2">University of Glasgow</corpName>
             </publisher>
             <address>
                 <addrLine>
-                    <geogName>Glasgow</geogName>
+                    <geogName xml:id="city">Glasgow</geogName>
                 </addrLine>
                 <addrLine>
-                    <geogName>United Kingdom</geogName>
+                    <geogName xml:id="country">United Kingdom</geogName>
                 </addrLine>
             </address>
             <availability>
-                <useRestrict>
+                <useRestrict xml:id="use">
                 This notation is in the public domain. The sources used to
                   create it may be under copyright. Use for academic, non commercial purposes falls under Fair Use.
                 </useRestrict>
             </availability>
             <respStmt>
-                <resp>Published as part of Music Analytics class project 2018</resp>
-                <persName>Rachel Brandie</persName>
-                <persName>Timothy Duguid</persName>
+                <resp xml:id="r-3">Published as part of Music Analytics class project 2018</resp>
+                <persName xml:id="pers-3">Rachel Brandie</persName>
+                <persName xml:id="pers-4">Timothy Duguid</persName>
             </respStmt>
         </pubStmt>
         <seriesStmt>
-            <title>Sufjan Stevens Music Analytics project </title>
+            <title xml:id="ser">Sufjan Stevens Music Analytics project </title>
             <editor xml:id="e-1">Rachel Brandie</editor>
         </seriesStmt>
         <notesStmt>
-            <annot>Original piece arranged by Musescore user Bollandj</annot>
+            <annot xml:id="ano">Original piece arranged by Musescore user Bollandj</annot>
         </notesStmt>
         <sourceDesc>
             <source>

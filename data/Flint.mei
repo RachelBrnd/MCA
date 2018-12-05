@@ -7,53 +7,53 @@
         <titleStmt xml:id="fd-ts">
             <title xml:id="t-1">Flint</title>
             <title xml:id="t-2" type="subtitle">
-                <identifier>MEI version of "Flint (For the Unemployed and Underpaid)" from the album "Michigan"</identifier>
+                <identifier xml:id="id">MEI version of "Flint (For the Unemployed and Underpaid)" from the album "Michigan"</identifier>
             </title>
             <composer xml:id="c-1">Sufjan Stevens</composer>
             <respStmt>
                 <resp>Encoded by Rachel Brandie</resp>
-                <persName>Rachel Brandie</persName>
-                <corpName>University of Glasgow</corpName>
+                <persName xml:id="pers">Rachel Brandie</persName>
+                <corpName xml:id="corp">University of Glasgow</corpName>
             </respStmt>
         </titleStmt>
         <editionStmt>
             <edition xml:id="edition">Derivative edition of Sufjan Steven's Flint as notated by MuseScore user Stuart42</edition>
             <respStmt>
-                <resp>Modified and notated by Rachel Brandie</resp>
-                <persName>Rachel Brandie</persName>
+                <resp xml:id="r-1">Modified and notated by Rachel Brandie</resp>
+                <persName xml:id="pers-1">Rachel Brandie</persName>
             </respStmt>
         </editionStmt>
         <extent xml:id="ext">57 Kilobytes</extent>
         <pubStmt>
             <publisher>
-                <corpName>University of Glasgow</corpName>
+                <corpName xml:id="corp">University of Glasgow</corpName>
             </publisher>
             <address>
                 <addrLine>
-                    <geogName>Glasgow</geogName>
+                    <geogName xml:id="city">Glasgow</geogName>
                 </addrLine>
                 <addrLine>
-                    <geogName>United Kingdom</geogName>
+                    <geogName xml:id="country">United Kingdom</geogName>
                 </addrLine>
             </address>
             <availability>
-                <useRestrict>
+                <useRestrict xml:id="use">
                 This notation is in the public domain. The sources used to
                   create it may be under copyright. Use for academic, non commercial purposes falls under Fair Use.
                 </useRestrict>
             </availability>
             <respStmt>
-                <resp>Published as part of Music Analytics class project 2018</resp>
-                <persName>Rachel Brandie</persName>
-                <persName>Timothy Duguid</persName>
+                <resp xml:id="r-2">Published as part of Music Analytics class project 2018</resp>
+                <persName xml:id="pers-1">Rachel Brandie</persName>
+                <persName xml:id="pers-2">Timothy Duguid</persName>
             </respStmt>
         </pubStmt>
         <seriesStmt>
-            <title>Sufjan Stevens Music Analytics project </title>
+            <title xml:id="ser">Sufjan Stevens Music Analytics project </title>
             <editor xml:id="e-1">Rachel Brandie</editor>
         </seriesStmt>
         <notesStmt>
-            <annot>Original piece arranged by Musescore user Stuart42</annot>
+            <annot xml:id="ano">Original piece arranged by Musescore user Stuart42</annot>
         </notesStmt>
         <sourceDesc>
             <source>

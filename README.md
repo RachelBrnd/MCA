@@ -15,8 +15,8 @@ descriptive and acoustic. Notated data can be found in user-generated sheet musi
  
  Data about Sufjan Stevens has not been widely analysed or visualised,
  perhaps due to lack of mainstream interest in the artist. Nonetheless some amateur analyists have sought to
- present his music data in by word-frequency charts that count the lyrical content of his songs, or in the wider project by
- Jax De Leon in "Illinois: Visualising Music", where Stevens tracks were analysed and visualised in various different ways -
+ present his music data in word-frequency charts that count the lyrical content of his songs, or in the wider project by
+ Jax De Leon, "Illinois: Visualising Music", where Stevens tracks were analysed and visualised in various different ways -
  revealing common lyrical and instrumental themes. While De Leon's graphics are visually impressive, they are somewhat hard to
  analyse for individual characterstics due to their scope - although they do reveal interesting patterns in Sufjan’s lyricism and 
  instrumentation.

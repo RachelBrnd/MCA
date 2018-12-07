@@ -11,7 +11,7 @@
             </title>
             <composer xml:id="c-1">Sufjan Stevens</composer>
             <respStmt>
-                <resp>Encoded by Rachel Brandie</resp>
+                <resp xml:id="r-0">Encoded by Rachel Brandie</resp>
                 <persName xml:id="pers">Rachel Brandie</persName>
                 <corpName xml:id="corp">University of Glasgow</corpName>
             </respStmt>
@@ -26,7 +26,7 @@
         <extent xml:id="ext">60 Kilobytes</extent>
         <pubStmt>
             <publisher>
-                <corpName xml:id="corp">University of Glasgow</corpName>
+                <corpName xml:id="corp" authURI="https://www.gla.ac.uk/" authority="University of Glasgow">University of Glasgow</corpName>
             </publisher>
             <address>
                 <addrLine>
@@ -53,12 +53,12 @@
             <editor xml:id="e-1">Rachel Brandie</editor>
         </seriesStmt>
         <notesStmt>
-            <annot xml:id="ano">Original piece arranged by Musescore user Stuart42</annot>
+            <annot xml:id="ano" authURI="https://musescore.com/user/8535066/scores/5257558" authority="MuseScore">Original piece arranged by Musescore user Stuart42</annot>
         </notesStmt>
         <sourceDesc>
             <source>
                 <titleStmt>
-                    <title xml:id="t-3" authURI="https://musescore.com/user/8535066/scores/5257558" authority="Sufjan Stevens">
+                    <title xml:id="t-3" authURI="https://musescore.com/user/8535066/scores/5257558" authority="MuseScore">
                         Flint (For the Unemployed and Underpaid)</title>
                     <editor xml:id="e-2" authURI="https://musescore.com/user/8535066">
                         Musescore User Stuart42</editor>

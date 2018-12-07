@@ -26,7 +26,7 @@
         <extent xml:id="ext">977Kilobytes</extent>
         <pubStmt>
             <publisher>
-                <corpName xml:id="corp">University of Glasgow</corpName>
+                <corpName xml:id="corp" authURI="https://www.gla.ac.uk/" authority="University of Glasgow">University of Glasgow</corpName>
             </publisher>
             <address>
                 <addrLine>
@@ -43,7 +43,7 @@
                 </useRestrict>
             </availability>
             <respStmt>
-                <resp xml:id="r-2">Published as part of Music Analytics class project 2018</resp>
+                <resp xml:id="r-2">Published as part of Music Analytics and Curation class project 2018</resp>
                 <persName xml:id="pers-2">Rachel Brandie</persName>
                 <persName xml:id="pers-3">Timothy Duguid</persName>
             </respStmt>
@@ -53,14 +53,14 @@
             <editor xml:id="e-1">Rachel Brandie</editor>
         </seriesStmt>
         <notesStmt>
-            <annot>Original piece arranged by Musescore user Ion95</annot>
+            <annot xml:id="ano"  authURI="https://musescore.com/user/55512/scores/1031591" authority="MuseScore">Original piece arranged by Musescore user Ion95</annot>
         </notesStmt>
         <sourceDesc>
             <source>
                 <titleStmt>
-                    <title xml:id="t-3" authURI="https://musescore.com/user/55512/scores/1031591" authority="Sufjan Stevens">
+                    <title xml:id="t-3" authURI="https://musescore.com/user/55512/scores/1031591" authority="MuseScore">
                         Chicago</title>
-                    <editor xml:id="e-2" authURI="https://musescore.com/user/55512">
+                    <editor xml:id="e-2" authURI="https://musescore.com/user/55512" authority="Ion95">
                         Musescore User Ion95</editor>
                     <composer xml:id="c-2" authURI="https://music.sufjan.com/" authority="Sufjan Stevens">
                         Sufjan Stevens</composer>

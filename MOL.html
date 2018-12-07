@@ -17,10 +17,7 @@
       <!-- ADD YOUR HTML CONTENT HERE! -->
 	  <link rel="stylesheet" type="text/css" href="goodcss.css">
       <a href="index.html">Homepage</a><h1 align="center">Mystery of Love</h1>
-	  <p align="center">This is Sufjan's 2003 track Flint (For the Unemployed and Underpaid), from the album Michigan, 
-	  which contains melancholy songs reflecting on various occurences and places in the US state of Michigan, where Stevens was born and raised. The album was the first of
-	  Steven's planned "50 States Project", where he aimed to create 50 albums based on all 50 US States. The proposed project was later revealed to be a joke - and to date Sufjan has only two albums
-	  directly relating to states - the other being <a href="index-meta.html">Illinois.</a></p>
+	  <p align="center">This is Sufjan's 2017 Oscar-nominated track Mystery of Love from the movie Call Me By Your Name.</a></p>
 	  
 	  <hr>
 	 <h2>Metadata</h2>
@@ -56,8 +53,13 @@
             /* If your element has an authURI attribute, copy the folloiwng line, being sure to replace the "MY-XML-ID" with your element's actual xml:id.
             document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='MY-XML-ID']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='MY-XML-ID']").textContent + "</p></a>"
            */
-		   document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='edition']").textContent + "</p>"
-		   document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='r-1']").textContent + "</p>"
+		  		  	   document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='edition']").textContent + "</p>"
+		     document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='r-1']").textContent + "</p>"
+			 document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='r-3']").textContent + "</p>"
+			 document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='corp-2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='corp-2']").textContent + "</p></a>"
+			 document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='city']").textContent + "</p>"
+			 document.querySelector("#meta").innerHTML += "<p>" + meiDoc.querySelector("[*|id='country']").textContent + "</p>"
+			 document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='ano']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='ano']").textContent + "</p></a>"
 		 document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='t-3']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='t-3']").textContent + "</p></a>"
 		    document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='e-2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='e-2']").textContent + "</p></a>"
 			 document.querySelector("#meta").innerHTML += "<a href=\"" + meiDoc.querySelector("[*|id='c-2']").getAttribute('authURI') +"\"><p>" + meiDoc.querySelector("[*|id='c-2']").textContent + "</p></a>"

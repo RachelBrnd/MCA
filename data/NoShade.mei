@@ -26,7 +26,7 @@
         <extent xml:id="ext">107 Kilobytes</extent>
         <pubStmt>
             <publisher>
-                <corpName xml:id="corp-2">University of Glasgow</corpName>
+                <corpName xml:id="corp-2" authURI="https://www.gla.ac.uk/" authority="University of Glasgow">University of Glasgow</corpName>
             </publisher>
             <address>
                 <addrLine>
@@ -53,12 +53,12 @@
             <editor xml:id="e-1">Rachel Brandie</editor>
         </seriesStmt>
         <notesStmt>
-            <annot xml:id="ano">Original piece arranged by Musescore user Bollandj</annot>
+            <annot xml:id="ano" authURI="https://musescore.com/user/24777/scores/2796036" authority="MuseScore">Original piece arranged by Musescore user Bollandj</annot>
         </notesStmt>
         <sourceDesc>
             <source>
                 <titleStmt>
-                    <title xml:id="t-3" authURI="https://musescore.com/user/24777/scores/2796036" authority="Sufjan Stevens">
+                    <title xml:id="t-3" authURI="https://musescore.com/user/24777/scores/2796036" authority="MuseScore">
                         No Shade in the Shadow of the Cross</title>
                     <editor xml:id="e-2" authURI="https://musescore.com/user/24777">
                         Musescore User Bollandj</editor>

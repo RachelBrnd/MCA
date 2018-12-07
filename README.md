@@ -16,7 +16,7 @@ descriptive and acoustic. Notated data can be found in user-generated sheet musi
  Data about Sufjan Stevens has not been widely analysed or visualised,
  perhaps due to lack of mainstream interest in the artist. Nonetheless some amateur analyists have sought to
  present his music data in by word-frequency charts that count the lyrical content of his songs, or in the wider project by
- Jax De Leon in "Illinois:Visualising Music", where Stevens tracks were analysed and visualised in various different ways -
+ Jax De Leon in "Illinois: Visualising Music", where Stevens tracks were analysed and visualised in various different ways -
  revealing common lyrical and instrumental themes. While De Leon's graphics are visually impressive, they are somewhat hard to
  analyse for individual characterstics due to their scope - although they do reveal interesting patterns in Sufjan’s lyricism and 
  instrumentation.
@@ -25,4 +25,4 @@ I have created a website comprising of four notations of Sufjan Stevens songs, a
 On this site you will also find analysis of acoustic data from Free Music Archive. 
 There are also four additional versions of the track "Chicago" with edited MEI, which show how edits to MEI are displayed!
 On this site you can find the majority (but not all!) of the 
-content of this project's dataset. To view all of the data please view "Project Files" in my GitHub repository!
+content of this project's dataset. To view all of the data please visit "Project Files" in my GitHub repository!

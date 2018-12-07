@@ -11,7 +11,9 @@ descriptive and acoustic. Notated data can be found in user-generated sheet musi
  holds the most accurate data about his various albums, including track names, lengths, lyrics, artists notes, performers,
  recording locations, license info and release dates.
  Descriptive data is also attached to acoustic data in places where his music is available to buy and listen to 
- (such as Spotify and itunes)- which eases searching for the consumer. Data about Sufjan has not been widely analysed or visualised,
+ (such as Spotify and itunes)- which eases searching for the consumer.
+ 
+ Data about Sufjan has not been widely analysed or visualised,
  perhaps due to lack of mainstream interest in the artist. Nonetheless some amateur analyists have sought to
  present his music data in by word-frequency charts that count the lyrical content of his songs, or in the wider project by
  Jax De Leon in "Illinois:Visualising Music", where Sufjan tracks were analysed and visualised in various different ways -

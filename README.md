@@ -25,4 +25,4 @@ I have created a website (accessible through index.html) comprising of four nota
 On this site you will also find analysis of acoustic data from Free Music Archive. 
 There are also four additional versions of the track "Chicago" with edited MEI, which show how edits to MEI are displayed!
 On this site you can find the majority (but not all!) of the 
-content of this project's dataset. To view all of the data, including more piano rolls, histograms anf full write ups,  please visit "Project Files" in my GitHub repository!
+content of this project's dataset. To view all of the data please visit "Project Files" in my GitHub repository!

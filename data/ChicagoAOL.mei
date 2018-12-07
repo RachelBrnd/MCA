@@ -3,9 +3,31 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
-        <fileDesc>
+           <fileDesc xml:id="ss-chi">
+        <titleStmt xml:id="fd-ts">
+            <title xml:id="t-1">Chicago</title>
+            <title xml:id="t-2" type="subtitle">
+                <identifier>MEI encoded version of "Chicago" from the album "Illinois"</identifier>
+            </title>
+            <composer xml:id="c-1">Sufjan Stevens</composer>
+            <respStmt>
+                <resp xml:id="r-1">Encoded by Rachel Brandie</resp>
+                <persName>Rachel Brandie</persName>
+                <corpName>University of Glasgow</corpName>
+            </respStmt>
+        </titleStmt>
+		 <editionStmt>
+            <edition xml:id="edition">Derivative edition of Sufjan Steven's Chicago as notated by MuseScore user Ion95</edition>
+            <respStmt>
+                <resp xml:id="r-0">Modified and re-notated by Rachel Brandie</resp>
+                <persName xml:id="pers">Rachel Brandie</persName>
+            </respStmt>
+        </editionStmt>
+		 <notesStmt>
+            <annot xml:id="ano"  authURI="https://musescore.com/user/55512/scores/1031591" authority="MuseScore">Original piece arranged by Musescore user Ion95</annot>
+        </notesStmt>
             <titleStmt>
-                <title>chicago</title>
+                <title>Chicago</title>
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>

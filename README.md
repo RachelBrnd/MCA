@@ -21,7 +21,8 @@ descriptive and acoustic. Notated data can be found in user-generated sheet musi
  analyse for individual characterstics due to their scope - although they do reveal interesting patterns in Sufjan’s lyricism and 
  instrumentation.
 
-I have created a website comprising of four notations of Sufjan Stevens songs, along with metadata and various audio and notational analyses. 
+I have created a website comprising of four notations of Sufjan Stevens songs, along with metadata, visualisations, automatic transcriptions and analyses.
+On this site you will also find analysis of acoustic data from Free Music Archive. 
 There are also four additional versions of the track "Chicago" with edited MEI, which show how edits to MEI are displayed!
 On this site you can find the majority (but not all!) of the 
 content of this project's dataset. To view all of the data please view "Project Files" in my GitHub repository!

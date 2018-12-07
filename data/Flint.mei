@@ -23,7 +23,7 @@
                 <persName xml:id="pers-1">Rachel Brandie</persName>
             </respStmt>
         </editionStmt>
-        <extent xml:id="ext">57 Kilobytes</extent>
+        <extent xml:id="ext">60 Kilobytes</extent>
         <pubStmt>
             <publisher>
                 <corpName xml:id="corp">University of Glasgow</corpName>
